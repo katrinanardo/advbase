@@ -1,0 +1,1476 @@
+/*Template Name:Citreat
+File Name:style.css
+Author Name: ThemeVault
+Author URI: http://www.themevault.net/
+License URI: http://www.themevault.net/license/*/
+
+/* FONTS*/
+@import '../fonts/font-awesome-4.7.0/css/font-awesome.min.css';
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+/*font-family: 'Kaushan Script', cursive;*/
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-size: 13px;
+    -webkit-tap-highlight-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+a, button {
+    text-decoration: none;
+    cursor: pointer;
+}
+a {
+    color: inherit;
+}
+a:hover,
+a:active,
+a:focus {
+    color: inherit;
+    outline: none !important;
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+*::-moz-selection {
+    background-color: #ff3300;
+    color: #ffffff;
+}
+
+::selection{
+    background-color: #ff3300;
+    color: #ffffff;
+}
+
+/*typography*/
+body {
+    margin: 0;
+    color: #000;
+    font-family: 'Muli', sans-serif;
+    font-size: 13px;
+    background-color: #fff;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+/*End typography*/
+
+#aggregate{
+    margin-top: 150%;
+    margin-right: 25%;
+    margin-right: 60%;
+}
+/*Spacing Value*/
+.tv-offspace-20 
+{
+    margin-top:20px;
+}
+.tv-offspace-30 {
+    margin-top: 30px;
+}
+.tv-offspace-40 {
+    margin-top: 40px;
+}
+.tv-offspace-50 {
+    margin-top: 50px;
+}
+.tv-offspace-left-15 {
+    margin-left: 15px;
+}
+.tv-offspace-bottom-20
+{
+    margin-bottom:20px;
+}
+.tv-offspace-bottom-30
+{
+    margin-bottom: 30px;
+}
+.tv-offspace-bottom-40
+{
+    margin-bottom: 40px;    
+}
+.tv-offspace-bottom-50
+{
+    margin-bottom: 50px;
+}
+.tv-offspace-bottom-60
+{
+    margin-bottom: 60px;    
+}
+.tv-offspace-bottom-70
+{
+    margin-bottom: 70px;    
+}
+
+/*Width-100*/
+.width-100
+{
+    width:100%;
+}
+
+/*Padding-0*/
+.padding-0{
+    padding:0;
+}
+
+/*Section Padding*/
+.tv-section-padding{
+    padding-top: 80px;
+}
+.tv-section-padding-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tv-section-padding-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.tv-section-padding-70 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.tv-section-padding-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.tv-section-padding-120 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.tv-section-padding-170
+{
+    padding-top: 170px;
+    padding-bottom:170px;
+}
+.tv-section-footer-padding
+{
+    padding-top: 40px;
+}
+/*Section Padding End Here*/
+
+/*Navigation CSS*/
+.tv-navbar-custom
+{
+    background: transparent;
+    border: medium none;
+    margin-bottom: 0;
+}
+.tv-banner-image
+{
+    width: 100%;
+    position: relative;
+    min-height:700px;
+}
+.tv-inner-banner-image
+{
+    width: 100%;
+    position: relative;
+    min-height:400px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tv-bg-black
+{
+    background: #000000;
+}
+.tv-opacity-medium
+{
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    position: absolute;
+    opacity: 0.7;
+    /*cd671d*/
+}
+.tv-citreat-logo {
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover
+{
+    color:#ffffff;
+}
+.navbar-default .navbar-brand
+{
+    color:#ffffff;
+}
+.tv-menu {
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background-color: transparent;
+    color: #ff3300;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: #ff3300;
+}
+.tv-banner-title {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+}
+.tv-banner-title h2 {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.tv-banner-title h1 {
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin:30px 0;
+    text-transform: uppercase;
+    color: #ff3300;
+}
+.tv-banner-title span {
+    color: #ff3300;
+}
+.tv-banner-title p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.tv-drop-menu.open > a, .tv-drop-menu.open > a:focus, .tv-drop-menu.open > a:hover {
+    background-color: transparent !important;
+    color: #ffffff !important;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    background-color: #ff3300;
+    color: #ffffff;
+    text-decoration: none;
+}
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    margin:0 !important;
+    left: 100%;
+}
+.dropdown-submenu {
+    position: relative;
+}
+.tv-sub-menu {
+    background:#222222;
+    box-shadow: none;
+    min-width: 200px;
+    padding: 0;
+    left:15px;
+    margin-top:2px !important;
+    border-radius: 0;
+    border:0;
+}
+.tv-sub-menu li a {
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 1px;
+    padding:18px;
+    position: relative;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+}
+.tv-drop-menu a > i {
+    margin-left: 5px;
+    line-height: 0;
+}
+.fa-sm {
+    margin-right: 10px;
+}
+.Navigation-list {
+    display: block !important;
+}
+
+.Navigation-list.is-hidden {
+    display: none !important;
+}
+/*Scrolling Navigation Bar*/
+.nav-scroll
+{
+    background: #ff3300;
+    border:0;
+    border-radius: 0;
+}
+.tv-scroll-logo
+{
+    color:#ffffff !important; 
+}
+.menu-scroll-menu:hover , .menu-scroll-menu:focus 
+{
+    color:#222222 !important;
+}
+.menu-active > .active > a {
+    background-color: rgba(0, 0, 0, 0);
+    color: #222222 !important;
+}
+/*EndScrolling Navigation Bar*/
+
+.tv-header-location {
+    display: inline-block;
+    float: left;
+    margin-right:50px;
+}
+.tv-header-call {
+    display: inline-block;
+    float: left;
+    margin-right:50px;
+}
+.tv-header-email
+{
+    display: inline-block;
+    float: left;
+}
+.tv-contact-details {
+    display: inline-block;
+}
+.tv-header-call > h3 , .tv-header-location> h3 , .tv-header-email > h3{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+/*End Navigation CSS*/
+
+/*Eating Well CSS*/
+.tv-fixed-img {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.tv-citreat-button a {
+    background-color: transparent;
+    border: 2px dashed #ff3300;
+    color: #ff3300;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 5px 15px;
+    transition: all 0.4s ease 0s;
+}
+.tv-citreat-button a:hover
+{
+    border: 2px solid #ff3300;
+    color: #fff;
+    background-color: #ff3300;
+}
+.tv-well-block > h3 {
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.tv-well-block > p {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+.tv-service-block {
+    margin-top: 30px;
+    text-align: center;
+}
+.tv-service-block > p {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.tv-eating-clear div:nth-child(3n+1)
+{
+    clear:both;
+}
+/*End Eating Well CSS*/
+
+/*Services CSS*/
+.tv-service-title > p , .tv-citreat-title > p {
+    color: #707070;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.tv-service-title > h3 , .tv-citreat-title > h3 {
+    color: #ff3300;
+    font-family: "Kaushan Script",cursive;
+    font-size: 30px;
+    font-weight: 500;
+}
+.tv-citreat-title
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.tv-service-title
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.hr-service {
+    margin: 10px 0;
+}
+.tv-service-content h4 {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.tv-service-content p {
+    letter-spacing: 1px;
+}
+.tv-service-content {
+    margin-bottom:40px;
+}
+/*End Services CSS*/
+
+/*Menu CSS*/
+.tv-home-menu-title > h4 {
+    color: #ff3300;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+.tv-home-menu-title > p {
+    color: #ff3300;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.tv-home-menu h4 {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.tv-home-menu span {
+    float: right;
+    font-size: 15px;
+    font-weight: 600;
+}
+.tv-home-menu p {
+    letter-spacing: 1px;
+    margin-top: 5px;
+    width: 60%;
+}
+.tv-home-menu
+{
+    margin-bottom: 20px;
+}
+.tv-menu-clear div:nth-child(2n+1)
+{
+    clear:both;   
+}
+/*End Menu CSS*/
+
+/*Work CSS*/
+.tv-work-block > h4 {
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+.tv-work-block > p {
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.tv-work-block-clear div:nth-child(3n+1)
+{
+    clear:both;
+}
+/*End Work CSS*/
+
+/*Reservation CSS*/
+.tv-reservation-img img
+{
+    border-radius: 15px;
+}
+.tv-reservation-block
+{
+    margin-bottom: 10px;
+}
+.tv-reservation-block label {
+    display: block;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.tv-citreat-button button {
+    background-color: transparent;
+    border: 2px dashed #ff3300;
+    color: #ff3300;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 5px 15px;
+    transition: all 0.4s ease 0s;
+}
+.tv-citreat-button button:hover
+{
+    border: 2px solid #ff3300;
+    color: #fff;
+    background-color: #ff3300;
+}
+.tv-reservation-input {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #222222;
+    font-weight: 600;
+    height: 40px;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    width: 100%;
+}
+.tv-reservation-textarea {
+    border: 1px solid #222222;
+    font-size: 14px;
+    font-weight: 600;
+    height: 150px;
+    letter-spacing: 1px;
+    line-height: 16px;
+    padding: 15px 20px;
+    resize: none;
+    text-transform: capitalize;
+    width: 100%;
+}
+/*End Reservation CSS*/
+
+/*Testimonial CSS*/
+.tv-testimonial-content {
+    color: #222222;
+}
+.tv-testimonial-block {
+    background: #ff3300 none repeat scroll 0 0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.tv-testimonial-img img {
+    border: 3px solid #ffffff;
+    margin: 0 auto;
+}
+.tv-testimonial-content > p {
+    color: #ffffff;
+    letter-spacing: 1px;
+    margin: 20px 0;
+}
+.tv-testimonial-content > h4 {
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.tv-testimonial-content h5 {
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+.owl-prev {
+    border: 0 solid black;
+    left: -5%;
+    position: absolute;
+    top: 50%;
+    display: block !important;
+    transform: translateY(-50%);
+}
+.owl-next {
+    border: 0 solid black;
+    position: absolute;
+    right: -5%;
+    top:50%;
+    display: block !important;
+    transform: translateY(-50%);
+}
+/*End Testimonial CSS*/
+
+/*Dishes Category*/
+.tv-dishescat-clear div:nth-child(4n+1)
+{
+    clear:both;
+}
+.tv-dishescat-block img {
+    margin: 0 auto;
+    width: 200px;
+}
+.tv-dishescat-block
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.menu-item .image:hover::before, .menu-item .image-hover:hover::before {
+    opacity: 1;
+}
+.menu-item .image .menu-button, .menu-item .image::before, .menu-item .image::after, .menu-item .image-hover::before {
+    opacity: 0;
+    transition: all 0.35s ease-out 0s;
+}
+.menu-item .image:hover::after {
+    bottom: 20px;
+    left: 20px;
+    opacity: 1;
+    right: 20px;
+    top: 20px;
+}
+.menu-item .image {
+    position: relative;
+}
+.hover-zoom {
+    overflow: hidden;
+}
+.hover-zoom:hover img, .hover-zoom:hover .bg {
+    transform: scale(1.1);
+}
+.hover-zoom img, .hover-zoom .bg {
+    transition: all 0.85s ease-out 0s;
+}
+.menu-item-content > p {
+    letter-spacing: 1px;
+}
+.menu-item-content > h4 {
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+/*End Dishes Category*/
+
+/*Counter CSS*/
+.tv-statistics-block img {
+    margin-right: 20px;
+}
+.tv-statistics-block .media-left {
+    vertical-align: middle;
+}
+.tv-statistics-counter > p {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+.tv-statistics-counter > h5 {
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.counter-p
+{
+    color:#ffffff !important;
+}
+/*End Counter CSS*/
+
+/*Event CSS*/
+.tv-event-button a
+{
+    background-color: transparent;
+    border: 2px dashed #ff3300;
+    color: #ff3300;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    transition: all 0.4s ease 0s;
+    text-transform: uppercase;
+}
+.tv-event-button a:hover {
+    background-color: #ff3300;
+    border: 2px solid #ff3300;
+    color: #fff;
+}
+.tv-planning-block{
+    text-align: center;
+}
+.tv-planning-block > h4 {
+    color: #ff3300;
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.tv-event-button {
+    margin: 40px 0;
+}
+.planning-1 {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.planning-2 {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+/*EndEvent CSS*/
+
+/*Gallery CSS*/
+.portfolio-img
+{
+    position: relative;
+}
+.tv-grid-gutter-10 {
+    padding: 10px;
+}
+.portfolio-img {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+}
+.portfolio-img:hover figcaption {
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: alpha(opacity=100);
+    opacity: 1;
+    top: 0;
+}
+.portfolio-img figcaption {
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    filter: alpha(opacity=0);
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(255,51,0,0.8);
+    color: #fff;
+    -webkit-transition: all .9s ease;
+    -moz-transition: all .9s ease;
+    -o-transition: all .9s ease;
+    -ms-transition: all .9s ease;
+    transition: all .4s ease;
+    -webkit-transition-delay: .5s;
+    -moz-transition-delay: .5s;
+    -o-transition-delay: .5s;
+    -ms-transition-delay: .5s;
+    transition-delay: .4s;
+}
+.portfolio-img img {
+    -webkit-transition: all 1.0s;
+    -moz-transition: all 1.0s;
+    -o-transition: all 1.0s;
+    -ms-transition: all 1.0s;
+    transition: all 0.4s;
+    -webkit-transition-delay: .5s;
+    -moz-transition-delay: .5s;
+    -o-transition-delay: .5s;
+    -ms-transition-delay: .5s;
+    transition-delay: 0.4s;
+}
+.portfolio-img:hover img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.tv-img-content {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.tv-img-content img
+{
+    margin: 0 auto;
+}
+
+.portfolio-img img {
+    cursor: pointer;
+    display: block;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+ul,li{
+    list-style: none;
+}
+/*End Gallery CSS*/
+
+/*Chef CSS*/
+.tv-chef-img img {
+    margin: 0 auto;
+}
+.tv-chef-block
+{
+    text-align: center;
+}
+.tv-social-navbar > a > span {
+    border: 1px solid #000000;
+    border-radius: 3px;
+    color: #000000;
+    display: inline-block;
+    font-size: 10px;
+    height: 22px;
+    line-height: 21px;
+    margin: 0 10px;
+    transition: all 0.5s ease 0s;
+    width: 22px;
+}
+.tv-social-navbar > a > span:hover {
+    background: #ff3300 none repeat scroll 0 0;
+    border-color: #ff3300;
+    color: #ffffff;
+}
+.tv-chef-content > p {
+    letter-spacing: 1px;
+    margin: 20px auto;
+    width: 92%;
+}
+.tv-chef-content > h4 {
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+/*End Chef CSS*/
+
+/*Blog CSS*/
+.tv-blog-block .media-left
+{
+    vertical-align: middle;
+    text-align: center;
+}
+.tv-blog-block .media-left > h4
+{
+    font-size: 25px;
+    font-weight: 700;
+}
+.tv-blog-block .media-left > p{
+    font-weight: 600;
+}
+.tv-blog-block .media-body > p
+{
+    letter-spacing: 1px;
+}
+.tv-blog-block .media-body > span{
+    letter-spacing: 1px;
+    color:#707070;
+}
+.tv-blog-block .media
+{
+    margin-bottom: 40px;
+}
+.tv-blog-block > p{
+    letter-spacing: 1px;
+}
+.tv-blog-clear div:nth-child(2n+1)
+{
+    clear:both;
+}
+/*End Blog CSS*/
+
+/*Footer CSS*/
+.tv-bg-citreat
+{
+    background: #ff3300;
+}
+.tv-footer-bg
+{
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    position: absolute;
+    opacity: 0.7;
+    /*cd671d*/
+}
+.tv-footer-title > a{
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color:#ffffff;
+}
+.tv-footer-desc a {
+    color: #ffffff;
+    line-height: 31px;
+    text-decoration: none;
+}
+.list-unstyled.footer-menu > li {
+    display: inline-block;
+    padding: 0 10px;
+}
+.tv-section-footer-padding {
+    padding-top: 70px;
+}
+.tv-footer-copyright.text-center > p {
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.tv-footer-copyright {
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.footer-menu a:hover{
+    color:#000000;
+}
+/*End Footer CSS*/
+
+/*Back To Top*/
+#back-to-top {
+    bottom: 50px;
+    color: #fff;
+    cursor: pointer;
+    height: 38px;
+    line-height: 38px;
+    position: fixed;
+    right:40px;
+    text-align: center;
+    width: 35px;
+    z-index: 9999;
+}
+#back-to-top > img {
+    width: 50px;
+}
+/*End Back To Top*/
+
+/*Inner About CSS*/
+.tv-recognition-content h4 {
+    margin-bottom: 20px;
+    color: #ff3300;
+    font-family: "Kaushan Script",cursive;
+    font-size: 30px;
+    font-weight: 500;
+}
+.tv-recognition-content > p {
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.tv-about-content-style {
+    color: #707070;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+blockquote {
+    border-left: 5px solid #ff3300;
+}
+.tv-chooseus-content img {
+    background: #ff3300 none repeat scroll 0 0;
+    border-radius: 50%;
+    height: 60px;
+    padding: 15px;
+}
+.tv-chooseus-content p {
+    letter-spacing: 1px;
+}
+.tv-chooseus-content h4 {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.tv-first-chooseus-block 
+{
+    margin-left: 200px;
+    padding-bottom:30px;
+}
+.tv-second-chooseus-block {
+    margin-left: 100px;
+    padding-bottom: 40px;
+    width: 60%;
+}
+.tv-third-chooseus-block
+{
+    width: 60%;
+    padding-bottom: 40px;
+}
+/*End Inner About CSS*/
+
+/*Contact Us*/
+#map {
+    height:300px;
+}
+.tv-contact-content h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.tv-contact-content h5 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.tv-contact-content p{
+    letter-spacing: 1px;
+}
+.tv-contactus-form .ordernowinput:focus{
+    border-color: #888;
+    box-shadow: none;
+    outline: 0 none;
+}
+.tv-contactus-form input {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #888;
+    border-radius: 0;
+    font-weight: 600;
+    height: 44px;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    width: 100%;
+}
+.tv-contact-content .media.media {
+    margin-bottom: 20px;
+}
+.tv-contactus-form textarea {
+    border: 1px solid #888;
+    font-size: 14px;
+    font-weight: 600;
+    height: 165px;
+    letter-spacing: 1px;
+    line-height: 16px;
+    padding: 15px 20px;
+    resize: none;
+    text-transform: capitalize;
+    width: 100%;
+}
+.tv-custom-sidebar{
+    margin-bottom: 40px;
+}
+.tv-custom-sidebar h3 {
+    background-color: #ff3300;
+    border-color: #222222;
+    border-left: 4px solid #222222;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    padding: 14px 15px 12px;
+}
+.opening-hours-list > li {
+    border-bottom: 1px solid #888;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 5px;
+    color:#ff3300;
+}
+.opening-hours-list .time {
+    float: right;
+}
+.textwidget > p {
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+/*End Contact Us*/
+
+/*Our Team CSS*/
+.tv-team-content h3 {
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom:20px;
+}
+.tv-team-content h4
+{
+    font-weight: 600;
+    margin-bottom:40px;
+}
+.tv-team-content > p {
+    letter-spacing: 1px;
+    margin-bottom:40px;
+}
+.tv-team-content h5 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.tv-team-content span {
+    color: #ff3300;
+    text-transform: capitalize;
+}
+.tv-ourteam-favourite-content{
+    letter-spacing: 1px;
+}
+.tv-team-content .media-body
+{
+    vertical-align: middle;
+}
+.our-team-label {
+    color: #ff3300;
+    display: block;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.tv-ourteam-clear div:nth-child(2n+1)
+{
+    clear:both;
+}
+.tv-ourteam-block {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+/*End Our Team CSS*/
+
+/*Promotions CSS*/
+.tv-promotions-block{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.tv-planning-content {
+    background: #f5f5f5 none repeat scroll 0 0;
+    padding: 10px 15px;
+    text-align: center;
+}
+.tv-planning-content > span {
+    color: #ff3300;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+.tv-planning-content > a {
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.tv-planning-content h4 {
+    color: #ff3300;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.ribbon.right {
+    right: -42px;
+    transform: rotate(45deg);
+}
+.ribbon.red {
+    background: #ff3000 none repeat scroll 0 0;
+}
+.ribbon {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #eee;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 5px 0;
+    position: absolute;
+    text-align: center;
+    top: 42px;
+    width: 200px;
+}
+.tv-promotions-clear div:nth-child(3n+1)
+{
+    clear:both;   
+}
+/*End Promotions CSS*/
+
+/*Services CSS*/
+#tabservices .nav-tabs > li {
+    float: none;
+    margin-bottom: -1px;
+}
+.tv-tabservice-block
+{
+    background-color: #f7f7f7;
+    border: 1px solid #e8e8e3;
+    border-radius: 4px;
+    padding: 20px 28px;
+}
+.tv-tabservice-block h4 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    font-size: 17px;
+}
+#tabservices .service-tab > li.active > a, .service-tab > li.active > a:focus, .service-tab > li.active > a:hover {
+    background-color: #ff3300;
+    border: 2px solid #ffffff;
+    border-radius: 0;
+    box-shadow: 0 0 0 2px #ff3300;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 7px 0;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+#tabservices .service-tab > li > a
+{
+    border:none;
+    color: #222222;
+    margin:7px 0;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 0;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+#tabservices .service-tab > li > a:focus, .service-tab > li > a:hover
+{
+    background-color: #ff3300;
+    color:#ffffff !important;
+    border: 2px solid #ffffff !important;
+    box-shadow: 0 0 0 2px #ff3300;
+}
+.service-tab
+{
+    border-bottom: 0px;
+}
+.tv-tabservice-content h3 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.tv-tabservice-content > p{
+    letter-spacing: 1px;
+}
+.tv-tabservice-block-content {
+    display: block;
+    margin-bottom: 20px;
+}
+/*End Services CSS*/
+
+/*Gallery CSS*/
+.tv-gallery-img
+{
+    margin-bottom: 20px;
+}
+.tv-tabgallery-block-content h3
+{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.tv-tabgallery-block-content
+{
+    margin-bottom: 20px;
+}
+.tv-tabgallery-clear div:nth-child(4n+1)
+{
+    clear:both;
+}
+/*End Gallery CSS*/
+
+
+
+/* Acordeon styles */
+.tab {
+    position: relative;
+    margin-bottom: 1px;
+    width: 100%;
+    color: #fff;
+    overflow: hidden;
+}
+#accordian input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+#tabservices label {
+    background: rgba(255, 51, 0, 0.8) none repeat scroll 0 0;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 3;
+    padding: 0 0 0 1em;
+    position: relative;
+    text-transform: capitalize;
+}
+.blue label {
+    background:rgba(255,51,0,0.8);
+}
+.tab .tab-content {
+    max-height: 0;
+    overflow: hidden;
+    background: rgba(255,51,0,0.8);
+    -webkit-transition: max-height .35s;
+    -o-transition: max-height .35s;
+    transition: max-height .35s;
+}
+.blue .tab-content {
+    background:rgba(255,51,0,0.8);
+}
+#accordian .tab-content p {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 1em;
+}
+/* :checked */
+input:checked ~ .tab-content {
+    max-height: 10em;
+}
+/* Icon */
+input[type="checkbox"] + label::after {
+    content: "+";
+    font-size: 16px;
+}
+.blue label::after {
+    display: block;
+    height: 3em;
+    line-height: 3;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top:0px;
+    transition: all 0.35s ease 0s;
+    width: 3em;
+}
+#tabservices label::after {
+    display: block;
+    height: 3em;
+    line-height: 3;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: -5px;
+    transition: all 0.35s ease 0s;
+    width: 3em;
+}
+input[type=radio] + label::after {
+    content: "\25BC";
+}
+input[type=checkbox]:checked + label::after {
+    transform: rotate(315deg);
+}
+input[type=radio]:checked + label::after {
+    transform: rotateX(180deg);
+}
+.tv-box-inner-head h3
+{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+/*End Accordions CSS*/
+
+/*Block CSS*/
+.tv-shortcodes-quote > p {
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+/*End Block CSS*/
+
+/*Button CSS*/
+.tv-cbutton1
+{
+    background-color: transparent;
+    border: 2px dashed #ff3300;
+    color: #ff3300;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 5px 15px;
+    transition: all 0.4s ease 0s;
+}
+.tv-cbutton1:hover{
+     background-color: #ff3300;
+    border: 2px solid #ff3300;
+    color: #fff;
+}
+.tv-shortcodes-button
+{
+    margin-top: 20px;
+}
+.cbutton
+{
+    margin-top: 30px;
+}
+.cbutton2 a{
+        padding: 10px 20px;
+}
+.cbutton3 a
+{
+    padding: 15px 25px;
+}
+.cbutton3 {
+    margin-top: 40px;
+}
+.cbutton4 a
+{
+    padding: 20px 30px;
+}
+.cbutton4 {
+    margin-top:50px;
+}
+.cbutton5 a
+{
+    padding: 25px 35px;
+}
+.cbutton5 {
+    margin-top:60px;
+}
+/*End Button CSS*/
+
+/*Drop Cap*/
+.tv-shortcode-dropcap {
+    float: left;
+    font-size: 29px;
+    height: 32px;
+    line-height: 32px;
+    margin: 4px 7px 0 2px;
+    text-align: center;
+    width: 32px;
+}
+.tv-dropcap p{
+    letter-spacing: 1px;
+}
+.tv-shortcode-dropcap.circle {
+    border-radius: 16px;
+    font-size: 19px;
+    margin-right: 10px;
+}
+/*End Drop Cap*/
+
+/*Message CSS*/
+.message-box-wrapper.red {
+    background-color: #ffdcdd;
+    border-color: #e9b9bb;
+    color: #713a3c;
+}
+.message-box-wrapper {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.message-box-title {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.message-box-content {
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.message-box-wrapper.blue {
+    background-color: #c2e1ee;
+    border-color: #8ec3d9;
+    color: #3d5058;
+}
+.message-box-wrapper.green {
+    background-color: #e1ffd9;
+    border-color: #badeb1;
+    color: #435b3d;
+}
+.message-box-wrapper.yellow {
+    background-color: #ffffe0;
+    border-color: #e1db8b;
+    color: #4d4d39;
+}
+
+
+/*End Message CSS*/

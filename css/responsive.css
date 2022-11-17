@@ -1,0 +1,977 @@
+/*
+Template Name:Citreat
+File Name: responsive.css
+Author Name: ThemeVault
+Author URI: http://www.themevault.net/
+License URI: http://www.themevault.net/license/
+*/
+
+/* Landscape phones and smaller */
+
+@media (min-width: 1199px) and (max-width: 1300px) 
+{
+
+}
+
+@media (max-width: 1199px) 
+{
+
+}
+
+@media (min-width:1000px) and (max-width:1100px)
+{
+    /*Banner CSS*/
+    .tv-banner-title{
+        width:100%;
+    }
+    .tv-menu {
+        padding: 15px 7px !important;
+        font-size: 10px;
+    }
+    .owl-prev {
+        left: 0;
+        top: 100%;
+        transform: none;
+        margin-top: 10px;
+    }
+    .owl-next {
+        right: 0;
+        top: 100%;
+        transform: none;
+        margin-top: 10px;
+    }
+    /*End Banner CSS*/
+
+    /*Promotions CSS*/
+    .ribbon {
+        top: 25px;
+        width: 160px;
+    }
+    .tv-planning-content h4 {
+        font-size: 14px;
+    }
+    /*End Promotions CSS*/
+}
+
+@media (min-width:992px) and (max-width:999px)
+{
+    .tv-banner-title{
+        width:100%;
+    }
+    .tv-menu {
+        padding: 15px 7px !important;
+        font-size: 10px;
+    }
+    .owl-prev {
+        left: 0;
+        top: 100%;
+        transform: none;
+        margin-top: 10px;
+    }
+    .owl-next {
+        right: 0;
+        top: 100%;
+        transform: none;
+        margin-top: 10px;
+    }
+    /*Promotions CSS*/
+    .ribbon {
+        top: 25px;
+        width: 160px;
+    }
+    .tv-planning-content h4 {
+        font-size: 14px;
+    }
+    
+    /*End Promotions CSS*/
+}
+
+@media (min-width: 768px) and (max-width: 991px) 
+{    
+    .tv-small-bg
+    {
+        background: #222222;
+    }
+    /*Toggle CSS*/
+    .nav
+    {
+        width: 100%;
+    }
+    .navbar-default .navbar-nav > li > a {
+        color: #ffffff;
+    }
+    .tv-newsletter-input input
+    {
+        width:50%;
+    }
+    .tv-newsletter-button button{
+        width:50%;
+    }
+    .navbar-default .navbar-nav > li > a:hover
+    {
+        color:#ff3300;
+    }
+    .navbar-header{
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .collapse.in, .tv-sub-sub-menu{
+        display:block !important;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #ffffff;
+    }
+    .navbar-default .menu-active > li > a:hover {
+        background-color: transparent;
+        color:#000000 !important;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .nav > li {
+        display:block;
+        position: relative;
+    }
+    .navbar-nav > li {
+        float: none;
+        text-align:left;
+    }
+    .navbar-nav .open .dropdown-menu {
+        background-color: transparent;
+        border: 0 none;
+        box-shadow: none;
+        float: none;
+        margin-top: 0;
+        position: static;
+        width: auto;
+    }
+    /*End Toggle CSS*/
+
+    /*Banner CSS*/
+    .tv-banner-title{
+        width: 100%;
+    }
+    /*End Banner CSS*/
+
+    /*Well CSS*/
+    #well .tv-fixed-img
+    {
+        background-attachment: unset;
+    }
+    /*End Well CSS*/
+
+    /*Works CSS*/
+    .tv-work-block > h4 {
+        font-size: 14px;
+    }
+    /*End Works CSS*/
+
+    /*Dishes*/
+    .tv-dishescat-clear-small div:nth-child(3n+1)
+    {
+        clear:both;
+    }
+    #dishes .tv-dishescat-clear div:nth-child(4n+1)
+    {
+        clear:none;
+    }
+    /*End Dishes*/
+
+    /*Counter CSS*/
+    .tv-statistics-counter > p{
+        font-size: 30px;
+    }
+    /*End Counter CSS*/
+
+    /*Event CSS*/
+    #event .tv-fixed-img
+    {
+        background-attachment: unset;
+    }
+    .tv-planning-block > h4
+    {
+        font-size: 30px;
+    }
+    /*End Event CSS*/
+
+    .owl-prev {
+        left: 0;
+        top: 100%;
+        transform: none;
+        margin-top: 10px;
+    }
+    .owl-next {
+        right: 0;
+        top: 100%;
+        transform: none;
+        margin-top: 10px;
+    }
+
+    /*Services CSS*/
+    .tv-service-content h4 {
+        font-size: 15px;
+    }
+    /*End Services CSS*/
+
+    /*About us Page CSS*/
+    .tv-first-chooseus-block {
+        margin-left:0;
+        padding-bottom:0;
+    }
+    .tv-second-chooseus-block {
+        margin-left:0;
+        padding-bottom:0;
+        width:100%;
+    }
+    .tv-third-chooseus-block {
+        padding-bottom:0px;
+        width:100%;
+    }
+    /*End About us Page CSS*/
+
+    /*Promotions CSS*/
+    .tv-promotions-clear div:nth-child(3n+1)
+    {
+        clear:none;
+    }
+    .tv-planning-content h4 {
+        font-size: 16px;
+    }
+    /*End Promotions CSS*/
+
+    /*Tab Gallery CSS*/
+    .tv-tabgallery-clear div:nth-child(2n+1) {
+        clear: both;
+    }
+    /*End Tab Gallery CSS*/
+
+    /*Shortcodes*/
+    .tv-box-inner-head h3 {
+        font-size: 19px;
+    }
+    /*End Shortcodes*/
+
+}
+
+@media (min-width:600px) and (max-width: 767px) 
+{
+    /*Nav CSS*/
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #ffffff;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .nav > li {
+        display:block;
+        position: relative;
+    }
+    .navbar-nav > li {
+        text-align: left;
+    }
+    .navbar-default .navbar-nav > li > a {
+        color: #ffffff;
+    }
+    .tv-small-bg
+    {
+        background: #222222;
+    }
+    .navbar-default .navbar-nav > li > a:hover {
+        background-color: transparent;
+        color:#ffffff;
+    }
+    .navbar-default .menu-active > li > a:hover {
+        background-color: transparent;
+        color:#ff3300 !important;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover
+    {
+        color:#ff3300;
+    }
+    /*End Nav CSS*/
+
+    /*Banner CSS*/
+    .tv-banner-title{
+        width:100%;
+    }
+    .tv-banner-title h2{
+        font-size: 20px;
+    }
+    .tv-banner-title h1
+    {
+        font-size: 30px;
+    }
+    .tv-header-call {
+        margin-bottom: 20px;
+        display: block;
+        float: none;
+        margin-right: 0;
+    }
+    .tv-header-call > h3, .tv-header-location > h3, .tv-header-email > h3{
+        font-size: 12px;
+    }
+    .tv-banner-title p{
+        font-size: 12px;
+    }
+    .tv-header-location {
+        display: inline-block;
+        margin-bottom: 20px;
+        float: none;
+        margin-right: 0;
+    }
+    .tv-header-email {
+        margin-right: 20px;
+    }
+    /*End Banner CSS*/
+
+    /*Reservation CSS*/
+    .tv-reservation-img img {
+        margin-bottom: 20px;
+    }
+    /*End Reservation CSS*/
+
+    /*Services CSS*/
+    .tv-service-img img
+    {
+        margin-bottom: 20px;
+    }
+    /*End Services CSS*/
+
+    .owl-prev {
+        left: 0;
+        top: 100%;
+        transform: none;
+        margin-top: 10px;
+    }
+    .owl-next {
+        right: 0;
+        top: 100%;
+        transform: none;
+        margin-top: 10px;
+    }
+
+    /*Counter CSS*/
+    .tv-statistics-block {
+        margin-bottom: 20px;
+    }
+    .tv-statistics-counter > p
+    {
+        font-size: 20px;   
+    }
+    /*Counter CSS*/
+
+    /*Footer CSS*/
+    .tv-footer-desc {
+        text-align: center;
+    }
+    .tv-footer-title {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    /*End Footer CSS*/
+
+    /*About Us Page CSS*/
+    .tv-recognition-img img {
+        margin-top: 20px;
+    }
+    .tv-first-chooseus-block {
+        margin-left:0;
+        padding-bottom:0;
+    }
+    .tv-second-chooseus-block {
+        margin-left:0;
+        padding-bottom:0;
+        width:100%;
+    }
+    .tv-third-chooseus-block {
+        padding-bottom:0px;
+        width:100%;
+    }
+    .tv-chooseus-img img {
+        margin-top: 20px;
+    }
+    /*End About Us Page CSS*/
+
+    /*Our Team CSS*/
+    .tv-team-content h5 {
+        font-size: 16px;
+    }
+    .tv-team-content img {
+        width: 100px !important;
+    }
+    .tv-team-content .media
+    {
+        margin-bottom: 20px;
+    }
+    .tv-team-content
+    {
+        margin-top: 20px;
+    }
+    /*End Our Team CSS*/
+
+    /*Tab Gallery CSS*/
+    .tv-tabgallery-block-content {
+        margin-top: 20px;
+    }
+    /*End Tab Gallery CSS*/
+    
+    /*Shortcodes CSS*/
+    .half {
+        margin-top: 20px;
+    }
+    /*End Shortcodes CSS*/
+}
+
+@media (max-width: 599px) and (min-width: 501px)
+{
+    .nav>li>a {
+        padding: 0px 15px !important;
+    }
+    #tabservices .service-tab > li > a{
+        padding: 10px 15px !important;
+    }
+    /*Shortcodes CSS*/
+    .half {
+        margin-top: 20px;
+    }
+    /*End Shortcodes CSS*/
+}
+
+@media (min-width:501px) and (max-width:599px)
+{
+    /*Nav CSS*/
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #ffffff;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .nav > li {
+        display:block;
+        position: relative;
+    }
+    .navbar-nav > li {
+        text-align: left;
+    }
+    .navbar-default .navbar-nav > li > a {
+        color: #ffffff;
+    }
+    .tv-small-bg
+    {
+        background: #222222;
+    }
+    .navbar-default .navbar-nav > li > a:hover {
+        background-color: transparent;
+        color:#ffffff;
+    }
+    .navbar-default .menu-active > li > a:hover {
+        background-color: transparent;
+        color:#ff3300 !important;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover
+    {
+        color:#ff3300;
+    }
+    /*End Nav CSS*/
+
+    /*Banner CSS*/
+    .tv-banner-title{
+        width:100%;
+    }
+    .tv-banner-title h2{
+        font-size: 20px;
+    }
+    .tv-banner-title h1
+    {
+        font-size: 30px;
+    }
+    .tv-header-call {
+        margin-bottom: 20px;
+        display: block;
+        float: none;
+        margin-right: 0;
+    }
+    .tv-header-call > h3, .tv-header-location > h3, .tv-header-email > h3{
+        font-size: 12px;
+    }
+    .tv-banner-title p{
+        font-size: 12px;
+    }
+    .tv-header-location {
+        display: inline-block;
+        margin-bottom: 20px;
+        float: none;
+        margin-right: 0;
+    }
+    .tv-header-email {
+        margin-right: 20px;
+    }
+    /*End Banner CSS*/
+
+    /*Reservation CSS*/
+    .tv-reservation-img img {
+        margin-bottom: 20px;
+    }
+    /*End Reservation CSS*/
+
+    /*Services CSS*/
+    .tv-service-img img
+    {
+        margin-bottom: 20px;
+    }
+    /*End Services CSS*/
+
+    .owl-prev {
+        left: 0;
+        top: 100%;
+        transform: none;
+        margin-top: 10px;
+    }
+    .owl-next {
+        right: 0;
+        top: 100%;
+        transform: none;
+        margin-top: 10px;
+    }
+
+    /*Counter CSS*/
+    .tv-statistics-block {
+        margin-bottom: 20px;
+    }
+    .tv-statistics-counter > p
+    {
+        font-size: 20px;   
+    }
+    /*Counter CSS*/
+
+    /*Footer CSS*/
+    .tv-footer-desc {
+        text-align: center;
+    }
+    .tv-footer-title {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    /*End Footer CSS*/
+
+    /*About Us Page CSS*/
+    .tv-recognition-img img {
+        margin-top: 20px;
+    }
+    .tv-first-chooseus-block {
+        margin-left:0;
+        padding-bottom:0;
+    }
+    .tv-second-chooseus-block {
+        margin-left:0;
+        padding-bottom:0;
+        width:100%;
+    }
+    .tv-third-chooseus-block {
+        padding-bottom:0px;
+        width:100%;
+    }
+    .tv-chooseus-img img {
+        margin-top: 20px;
+    }
+    /*End About Us Page CSS*/
+
+    /*Our Team CSS*/
+    .tv-team-content h5 {
+        font-size: 16px;
+    }
+    .tv-team-content img {
+        width: 100px !important;
+    }
+    .tv-team-content .media
+    {
+        margin-bottom: 20px;
+    }
+    .tv-team-content
+    {
+        margin-top: 20px;
+    }
+    /*End Our Team CSS*/
+
+    /*Tab Gallery CSS*/
+    .tv-tabgallery-block-content {
+        margin-top: 20px;
+    }
+    /*End Tab Gallery CSS*/
+}
+
+@media (max-width: 500px) 
+{
+    /*Nav CSS*/
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #ffffff;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .nav > li {
+        display:block;
+        position: relative;
+    }
+    .navbar-nav > li {
+        text-align: left;
+    }
+    .navbar-default .navbar-nav > li > a {
+        color: #ffffff;
+    }
+    .tv-small-bg
+    {
+        background: #222222;
+    }
+    .navbar-default .navbar-nav > li > a:hover {
+        background-color: transparent;
+        color:#ffffff;
+    }
+    .navbar-default .menu-active > li > a:hover {
+        background-color: transparent;
+        color:#ff3300 !important;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover
+    {
+        color:#ff3300;
+    }
+    /*End Nav CSS*/
+
+    /*Banner CSS*/
+    .tv-banner-title{
+        width:100%;
+    }
+    .tv-banner-title h2{
+        font-size: 20px;
+    }
+    .tv-banner-title h1
+    {
+        font-size: 30px;
+    }
+    .tv-header-call {
+        margin-bottom: 20px;
+        display: block;
+        float: none;
+        margin-right: 0;
+    }
+    .tv-header-call > h3, .tv-header-location > h3, .tv-header-email > h3{
+        font-size: 12px;
+    }
+    .tv-banner-title p{
+        font-size: 12px;
+    }
+    .tv-header-location {
+        display: inline-block;
+        margin-bottom: 20px;
+        float: none;
+        margin-right: 0;
+    }
+    .tv-header-email {
+        margin-right: 20px;
+    }
+    /*End Banner CSS*/
+
+    /*Reservation CSS*/
+    .tv-reservation-img img {
+        margin-bottom: 20px;
+    }
+    /*End Reservation CSS*/
+
+    /*Services CSS*/
+    .tv-service-img img
+    {
+        margin-bottom: 20px;
+    }
+    /*End Services CSS*/
+
+    .owl-prev {
+        left: 0;
+        top: 100%;
+        transform: none;
+        margin-top: 10px;
+    }
+    .owl-next {
+        right: 0;
+        top: 100%;
+        transform: none;
+        margin-top: 10px;
+    }
+
+    /*Counter CSS*/
+    .tv-statistics-block {
+        margin-bottom: 20px;
+    }
+    .tv-statistics-counter > p
+    {
+        font-size: 20px;   
+    }
+    /*Counter CSS*/
+
+    /*Footer CSS*/
+    .tv-footer-desc {
+        text-align: center;
+    }
+    .tv-footer-title {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    /*End Footer CSS*/
+
+    /*About Us Page CSS*/
+    .tv-recognition-img img {
+        margin-top: 20px;
+    }
+    .tv-first-chooseus-block {
+        margin-left:0;
+        padding-bottom:0;
+    }
+    .tv-second-chooseus-block {
+        margin-left:0;
+        padding-bottom:0;
+        width:100%;
+    }
+    .tv-third-chooseus-block {
+        padding-bottom:0px;
+        width:100%;
+    }
+    .tv-chooseus-img img {
+        margin-top: 20px;
+    }
+    /*End About Us Page CSS*/
+
+    /*Our Team CSS*/
+    .tv-team-content h5 {
+        font-size: 16px;
+    }
+    .tv-team-content img {
+        width: 100px !important;
+    }
+    .tv-team-content .media
+    {
+        margin-bottom: 20px;
+    }
+    .tv-team-content
+    {
+        margin-top: 20px;
+    }
+    /*End Our Team CSS*/
+
+    /*Tab Gallery CSS*/
+    .tv-tabgallery-block-content {
+        margin-top: 20px;
+    }
+    /*End Tab Gallery CSS*/
+    
+    /*Shortcodes CSS*/
+    .half {
+        margin-top: 20px;
+    }
+    /*End Shortcodes CSS*/
+}
+
+@media (max-width: 400px) 
+{
+    /*Nav CSS*/
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #ffffff;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .nav > li {
+        display:block;
+        position: relative;
+    }
+    .navbar-nav > li {
+        text-align: left;
+    }
+    .navbar-default .navbar-nav > li > a {
+        color: #ffffff;
+    }
+    .tv-small-bg
+    {
+        background: #222222;
+    }
+    .navbar-default .navbar-nav > li > a:hover {
+        background-color: transparent;
+        color:#ffffff;
+    }
+    .navbar-default .menu-active > li > a:hover {
+        background-color: transparent;
+        color:#ff3300 !important;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover
+    {
+        color:#ff3300;
+    }
+    /*End Nav CSS*/
+
+    /*Banner CSS*/
+    .tv-banner-title{
+        width:100%;
+    }
+    .tv-banner-title h2{
+        font-size: 20px;
+    }
+    .tv-banner-title h1
+    {
+        font-size: 30px;
+    }
+    .tv-header-call {
+        margin-bottom: 20px;
+        display: block;
+        float: none;
+        margin-right: 0;
+    }
+    .tv-header-call > h3, .tv-header-location > h3, .tv-header-email > h3{
+        font-size: 12px;
+    }
+    .tv-banner-title p{
+        font-size: 12px;
+    }
+    .tv-header-location {
+        display: inline-block;
+        margin-bottom: 20px;
+        float: none;
+        margin-right: 0;
+    }
+    .tv-header-email {
+        margin-right: 20px;
+    }
+    /*End Banner CSS*/
+
+    /*Reservation CSS*/
+    .tv-reservation-img img {
+        margin-bottom: 20px;
+    }
+    /*End Reservation CSS*/
+
+    /*Services CSS*/
+    .tv-service-img img
+    {
+        margin-bottom: 20px;
+    }
+    /*End Services CSS*/
+
+    .owl-prev {
+        left: 0;
+        top: 100%;
+        transform: none;
+        margin-top: 10px;
+    }
+    .owl-next {
+        right: 0;
+        top: 100%;
+        transform: none;
+        margin-top: 10px;
+    }
+
+    /*Counter CSS*/
+    .tv-statistics-block {
+        margin-bottom: 20px;
+    }
+    .tv-statistics-counter > p
+    {
+        font-size: 20px;   
+    }
+    /*Counter CSS*/
+
+    /*Footer CSS*/
+    .tv-footer-desc {
+        text-align: center;
+    }
+    .tv-footer-title {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    /*End Footer CSS*/
+
+    /*About Us Page CSS*/
+    .tv-recognition-img img {
+        margin-top: 20px;
+    }
+    .tv-first-chooseus-block {
+        margin-left:0;
+        padding-bottom:0;
+    }
+    .tv-second-chooseus-block {
+        margin-left:0;
+        padding-bottom:0;
+        width:100%;
+    }
+    .tv-third-chooseus-block {
+        padding-bottom:0px;
+        width:100%;
+    }
+    .tv-chooseus-img img {
+        margin-top: 20px;
+    }
+    /*End About Us Page CSS*/
+
+    /*Our Team CSS*/
+    .tv-team-content h5 {
+        font-size: 16px;
+    }
+    .tv-team-content img {
+        width: 100px !important;
+    }
+    .tv-team-content .media
+    {
+        margin-bottom: 20px;
+    }
+    .tv-team-content
+    {
+        margin-top: 20px;
+    }
+    /*End Our Team CSS*/
+
+    /*Tab Gallery CSS*/
+    .tv-tabgallery-block-content {
+        margin-top: 20px;
+    }
+    /*End Tab Gallery CSS*/
+
+    /*Shortcodes CSS*/
+    .half {
+        margin-top: 20px;
+    }
+    /*End Shortcodes CSS*/
+}
+
+
+
+
+
+
