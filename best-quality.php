@@ -1,8 +1,4 @@
-<!--Template Name:citreat
-File Name:menucard.html
-Author Name: ThemeVault
-Author URI: http://www.themevault.net/
-License URI: http://www.themevault.net/license/-->
+
 <!DOCTYPE html>
 <html>
     <head>
